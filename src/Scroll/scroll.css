@@ -1,0 +1,47 @@
+.mainCont {
+  position: relative;
+  height: 500px;
+  width: 90%;
+  margin: auto;
+}
+.mainCont > h3 {
+  font-size: 160%;
+  color: #fff;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.mainCont > p {
+  color: #fff;
+  font-size: 110%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.slider {
+  width: 100%;
+  height: 300px;
+}
+.swiper-button-prev,
+.swiper-button-next {
+  color: #61d1b0;
+}
+.swiper-scrollbar{
+  background-color:#61d1b0;
+}
+
+@media only screen and (max-width: 849px) {
+  .scrollImg {
+    height: 100%;
+    width: 75px;
+  }
+  .slider {
+    width: 100%;
+    margin-top: 10%;
+    height: 90px;
+  }
+  .mainCont {
+    position: relative;
+    height: 300px;
+    width: 90%;
+    margin: auto;
+  }
+}
